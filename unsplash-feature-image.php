@@ -2,7 +2,7 @@
 /*
 Plugin Name: Unsplash Image Fetcher
 Description: Fetch an image from Unsplash based on the post title, convert it to PNG, and set it as the featured image.
-Version: 1.4
+Version: 1.5
 Author: Sayantan Roy
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -76,6 +76,12 @@ class Unsplash_Image_Fetcher {
             return;
         }
 
+        $title = get_the_title( $post_id );
+        if ( empty( $title ) ) {
+            error_log( 'Post title is empty. Skipping image fetch.' );
+            return;
+        }
+
         $this->is_fetching = true;
         $this->api_key = get_option( 'unsplash_api_key' );
 
@@ -91,7 +97,6 @@ class Unsplash_Image_Fetcher {
             return;
         }
 
-        $title = get_the_title( $post_id );
         $image_url = $this->get_unsplash_image( $title );
 
         if ( $image_url ) {
