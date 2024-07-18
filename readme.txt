@@ -2,8 +2,8 @@
 Contributors: Sayantan Roy
 Tags: Unsplash, images, featured image, automation
 Requires at least: 4.6
-Tested up to: 6.5
-Stable tag: 1.4
+Tested up to: 6.6
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Plugin URI: https://www.techbreeze.in/unsplash-image-fetcher-plugin/
