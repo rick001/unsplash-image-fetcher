@@ -72,7 +72,7 @@ class Unsplash_Image_Fetcher {
 
     // Fetch image and set as featured image when post is saved
     public function fetch_image( $post_id, $post ) {
-        if ( wp_is_post_revision( $post_id ) || $post->post_type != 'post' || $this->is_fetching ) {
+        if ( wp_is_post_revision( $post_id ) || $post->post_type != 'post' || $this->is_fetching || $post->post_status != 'draft' ) {
             return;
         }
 
@@ -207,3 +207,4 @@ class Unsplash_Image_Fetcher {
 }
 
 new Unsplash_Image_Fetcher();
+?>
