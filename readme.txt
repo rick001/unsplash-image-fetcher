@@ -1,5 +1,5 @@
 === Unsplash Image Fetcher ===
-Contributors: Sayantan Roy
+Contributors: Techbreeze IT Solutions
 Tags: Unsplash, images, featured image, automation
 Requires at least: 4.6
 Tested up to: 6.6
@@ -56,27 +56,27 @@ If no image is found, the plugin will log an error and not set any featured imag
 Currently, the plugin supports only standard WordPress posts.
 
 == Screenshots ==
-1. **Settings Page:**
-   ![Settings Page](https://i.postimg.cc/9RfyTp5v/settings-screenshot.png)
+1. **Settings Page:** Configure Unsplash API key.
+   ![Settings Page](screenshot-1.png)
 
-2. **Example of Featured Image:**
-   ![Example of Featured Image](https://i.postimg.cc/kVsxBHZQ/feature-image-screenshot.png)
+2. **Example of Featured Image:** Image fetched from Unsplash via API and set as the featured image for the post.
+   ![Example of Featured Image](screenshot-2.png)
 
 == Changelog ==
-= 1.4 =
+= 1.5 =
 * Replaced file_get_contents with wp_remote_get and WP_Filesystem methods.
 * Added license information to the plugin header.
 
 = 1.1 =
-* Initial release
+* Initial release.
 
 == Upgrade Notice ==
-= 1.4 =
+= 1.5 =
 * Replaced file_get_contents with wp_remote_get and WP_Filesystem methods.
 * Added license information to the plugin header.
 
 = 1.1 =
-* Initial release
+* Initial release.
 
 == Support ==
 For any issues or questions, please drop an email to rick@techbreeze.in
