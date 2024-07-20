@@ -1,11 +1,14 @@
 <?php
 /*
 Plugin Name: Unsplash Image Fetcher
-Description: Fetch an image from Unsplash based on the post title, convert it to PNG, and set it as the featured image.
+Plugin URI: https://www.techbreeze.in/plugins/unsplash-image-fetcher
+Description: Fetches images from Unsplash based on post titles, converts them to PNG, and sets them as featured images automatically.
 Version: 1.5
-Author: Sayantan Roy
+Author: Techbreeze IT Solutions
+Author URI: https://www.techbreeze.in
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: unsplash-image-fetcher
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
