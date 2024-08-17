@@ -3,7 +3,7 @@ Contributors: Techbreeze IT Solutions
 Tags: Unsplash, images, featured image, automation
 Requires at least: 4.6
 Tested up to: 6.6
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Plugin URI: https://www.techbreeze.in/unsplash-image-fetcher-plugin/
@@ -11,7 +11,14 @@ Plugin URI: https://www.techbreeze.in/unsplash-image-fetcher-plugin/
 Fetches images from Unsplash based on post titles, converts them to PNG, and sets them as featured images automatically.
 
 == Description ==
-**Unsplash Image Fetcher** is a simple yet powerful WordPress plugin that automates the process of setting featured images for your posts. It fetches a relevant image from Unsplash based on your post title, converts it to PNG, and sets it as the featured image. Save time and enhance your posts with beautiful, high-quality images effortlessly.
+**Unsplash Image Fetcher** is a simple yet powerful WordPress plugin that automates the process of setting featured images for your posts. It fetches a relevant image from [Unsplash](https://unsplash.com) based on your post title, converts it to PNG, and sets it as the featured image. Save time and enhance your posts with beautiful, high-quality images effortlessly.
+
+**Third-Party Service:**  
+This plugin relies on the Unsplash API to fetch images. When you use this plugin, it sends the post title to the Unsplash API to retrieve a relevant image. You can learn more about Unsplash by visiting [Unsplash](https://unsplash.com).
+
+**Links to Unsplash's Terms of Use and Privacy Policy:**
+- [Unsplash Terms of Use](https://unsplash.com/terms)
+- [Unsplash Privacy Policy](https://unsplash.com/privacy)
 
 == Features ==
 * Automatically fetches an image from Unsplash based on the post title.
@@ -63,6 +70,9 @@ Currently, the plugin supports only standard WordPress posts.
    ![Example of Featured Image](screenshot-2.png)
 
 == Changelog ==
+= 1.6 =
+* Documented usage of Unsplash API and added links to Unsplash Terms of Use and Privacy Policy.
+
 = 1.5 =
 * Replaced file_get_contents with wp_remote_get and WP_Filesystem methods.
 * Added license information to the plugin header.
@@ -71,6 +81,9 @@ Currently, the plugin supports only standard WordPress posts.
 * Initial release.
 
 == Upgrade Notice ==
+= 1.6 =
+* Documented usage of Unsplash API and added links to Unsplash Terms of Use and Privacy Policy.
+
 = 1.5 =
 * Replaced file_get_contents with wp_remote_get and WP_Filesystem methods.
 * Added license information to the plugin header.
