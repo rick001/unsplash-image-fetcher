@@ -1,4 +1,4 @@
-=== Unsplash Image Fetcher ===
+=== Image Fetcher for Unsplash ===
 Contributors: Techbreeze IT Solutions
 Tags: Unsplash, images, featured image, automation
 Requires at least: 4.6
@@ -11,7 +11,7 @@ Plugin URI: https://www.techbreeze.in/unsplash-image-fetcher-plugin/
 Fetches images from Unsplash based on post titles, converts them to PNG, and sets them as featured images automatically.
 
 == Description ==
-**Unsplash Image Fetcher** is a simple yet powerful WordPress plugin that automates the process of setting featured images for your posts. It fetches a relevant image from [Unsplash](https://unsplash.com) based on your post title, converts it to PNG, and sets it as the featured image. Save time and enhance your posts with beautiful, high-quality images effortlessly.
+**Image Fetcher for Unsplash** is a simple yet powerful WordPress plugin that automates the process of setting featured images for your posts. It fetches a relevant image from [Unsplash](https://unsplash.com) based on your post title, converts it to PNG, and sets it as the featured image. Save time and enhance your posts with beautiful, high-quality images effortlessly.
 
 **Third-Party Service:**  
 This plugin relies on the Unsplash API to fetch images. When you use this plugin, it sends the post title to the Unsplash API to retrieve a relevant image. You can learn more about Unsplash by visiting [Unsplash](https://unsplash.com).
@@ -70,6 +70,8 @@ Currently, the plugin supports only standard WordPress posts.
    ![Example of Featured Image](screenshot-2.png)
 
 == Changelog ==
+= 1.7 =
+* Changed Plugin name to prevent use of someone else's trademark.
 = 1.6 =
 * Documented usage of Unsplash API and added links to Unsplash Terms of Use and Privacy Policy.
 
