@@ -8,7 +8,7 @@ Author: Techbreeze IT Solutions
 Author URI: https://www.techbreeze.in
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: unsplash-image-fetcher
+Text Domain: image-fetcher-for-unsplash
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
