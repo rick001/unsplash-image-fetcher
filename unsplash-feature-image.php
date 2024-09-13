@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Unsplash Image Fetcher
+Plugin Name: Image Fetcher for Unsplash
 Plugin URI: https://www.techbreeze.in/plugins/unsplash-image-fetcher
 Description: Fetches images from Unsplash based on post titles, converts them to PNG, and sets them as featured images automatically.
 Version: 1.7
